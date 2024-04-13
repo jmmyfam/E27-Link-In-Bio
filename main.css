@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  color: black;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  border: 2px solid black;
+}
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  color: rgb(241, 241, 241);
+}
+.imgOrder {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.imgSize {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  width: 75%;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;;
+  border-radius: 7px;
+  color: azure;
+  background-color: rgba(20, 20, 20, 0.274);
+}
+.logoSize {
+  display: block;
+  margin-top: auto;
+  width: 15px;
+  height: 25px;
+}
